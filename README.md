@@ -35,11 +35,7 @@ num_frames=50;% numbers of frames
 
 
 Please Note:
-due to the high volume of computation it is recommended to compile the code using:
-
->> coder
-
-and adding all the files containing the% # codegen
+due to the high volume of computation it is recommended to compile the code using ">> coder" and adding all the files containing the% # codegen
 after the compilation is dome use the _mex function to carry computation
 
 
