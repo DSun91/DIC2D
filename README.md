@@ -2,7 +2,7 @@
 This Folder contains the matlab implementation of the Lucas-Kanade algorithm for digital image correlation, applied on a tensile test of a composite material speciment in order to determine its characteristics like Young's Modulus, ultimate tensile strenght and yield point.
 The implementation foresees the radiometric compensation of the background intensity and allows to choose the transformation model between pure translation or affine.
 
-How to use
+HOW TO USE
 
 1) If we have a video of the tensile test, extract the frames you want to use with the following function:
 
@@ -31,3 +31,15 @@ crop_y2=570;%y2 coordinate of the rectangular area where to correlate, for using
 offset_sec=35;%starting frame 
 
 num_frames=50;% numbers of frames
+
+
+
+Please Note:
+due to the high volume of computation it is recommended to compile the code using:
+
+>> coder
+
+and adding all the files containing the% # codegen
+after the compilation is dome use the _mex function to carry computation
+
+
