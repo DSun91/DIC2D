@@ -16,8 +16,13 @@ Once you have the frames u r ready for the correlation step.
 
 path=''; % the name of the directory where the frame are
 crop_x1=270;%x1 coordinate of the rectangular area where to correlate, for using full image x1=0
+
 crop_y1=20;%y1 coordinate of the rectangular area where to correlate, for using full image y1=0
+
 crop_x2=500;%x2 coordinate of the rectangular area where to correlate, for using full image x2= images width
+
 crop_y2=570;%y2 coordinate of the rectangular area where to correlate, for using full image x2= images height
+
 offset_sec=35;%starting frame 
+
 num_frames=50;% numbers of frames
