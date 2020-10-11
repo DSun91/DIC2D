@@ -19,7 +19,7 @@
 #### Once we have the frames we are ready for the correlation step.
 
 ### Step-2
-#### Run the script "run.m" after assigning values to the following parameters in the script:
+#### Run the script "run_script.m" after assigning values to the following parameters in the script:
 
 #### path=''; % the name of the directory where the frame are
 
